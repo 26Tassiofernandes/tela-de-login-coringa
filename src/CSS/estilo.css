@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&display=swap');
+
+body {
+    background-color: #2D1843;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+}
+
+* {
+    font-family: 'Oxanium';
+}
+
+main.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 500px;  
+    
+}
+
+img#coringa-foto {
+    width: 300px;
+    flex: 1;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+section.secao-login {
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 290px;
+    padding: 20px;
+    
+}
+
+
+div.conteudo-login {
+    margin-top: 60px;
+}
+
+
+h2#faca-seu-login{
+    text-align: center;
+    font-family: 'Oxanium';
+    color: rgb(44, 44, 44);
+    
+}
+
+label.campos-senha-email-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+input#campo-senha, input#campo-email {
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4C7C48;
+
+}
+
+
+label.entrar {
+    display: flex;
+    justify-content: center;
+}
+
+input#entrar {
+    border-radius: 10px;
+    width: 208px;
+    height: 35px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    background-color: #4C7C48;
+    color: white;
+    font-weight: bold;
+    margin-top:-15px;
+}
+
+input#entrar:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+
+}
+
+label.lembrar-me {
+    display: flex;
+    flex-direction: row;
+    margin-left: 39px;
+    height: 45px;
+}
+
+label.lembrar-me > p {
+    font-size: 14px;
+}
+
+
+p.esqueceu-senha {
+    text-align: center;
+    font-size: 13px;
+}
+
+
+p > a {
+    text-decoration: none;
+    color: #6C63FF;
+
+}
+
+p > a:hover {
+    text-decoration: underline;
+    
+}
+
+div > p.logar-com {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+picture.redes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+#facebook-logo, #google-logo, #twitter-logo {
+    width: 30px;
+    height: 31px;
+
+}
+
+#facebook-logo:hover, #google-logo:hover, #twitter-logo:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+
+}
+
+footer > p {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}

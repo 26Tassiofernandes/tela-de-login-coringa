@@ -1,0 +1,49 @@
+@media (max-width: 690px) {
+    main.conteudo-principal {
+        max-width: 540px;
+        max-height: 500px;
+        justify-content: center;
+        display: flex;
+        margin-top: 50px;
+    }
+
+    div.conteudo-login {
+        margin-top: 30px;
+    }
+
+    h2#faca-seu-login {
+        width: 170px;
+        text-align: center;
+    }
+
+    img#coringa-foto {
+        max-width: 195px;
+        
+    }
+
+    section.secao-login {
+        width: 170px;
+        padding: 15px;
+    }
+
+    input#campo-senha, input#campo-email {
+        display: flex;
+        width: 160px;
+        
+    }
+
+    input#entrar {
+        width: 160px;
+    }
+
+    input#lembrar-me  {
+        margin-left: -35px;
+    
+    }
+
+    footer > p {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
