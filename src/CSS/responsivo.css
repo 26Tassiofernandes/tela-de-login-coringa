@@ -1,10 +1,10 @@
 @media (max-width: 690px) {
     main.conteudo-principal {
         max-width: 540px;
-        max-height: 500px;
         justify-content: center;
-        display: flex;
-        margin-top: 80px;
+        display: flex;        
+        margin: 0 auto;
+        margin-top: 85px;
         
     }
 
@@ -18,7 +18,9 @@
     }
 
     img#coringa-foto {
-        max-width: 195px;
+        width: 100%; /* Define a largura da imagem como 100% do seu contêiner */
+        height: 100%; /* Define a altura da imagem como 100% do seu contêiner */
+        object-fit: cover; /* Ajusta a imagem para preencher o contêiner, preservando a proporção */
         
     }
 
