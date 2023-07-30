@@ -39,9 +39,11 @@
         width: 160px;
     }
 
-    input#lembrar-me  {
-        margin-left: 0;
-    
+    label.lembrar-me {
+        display: flex;
+        flex-direction: row;
+        /* height: 45px; */
+        margin-left: 0px;
     }
 
     footer > p {
