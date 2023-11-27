@@ -16,7 +16,7 @@
 
 ### 📜 Descrição 
 
-Interface de login seguindo o tema do famoso vilão Coringa. 
+Interface de login seguindo o tema do famoso vilão Coringa.
 
 ##
 
