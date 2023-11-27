@@ -1,4 +1,4 @@
-### Tela de Login Coringa 🔪
+### Tela de Login Coringa 🔒
 
 <div style="display: inline_block">
 
