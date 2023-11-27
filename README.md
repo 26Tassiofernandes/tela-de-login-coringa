@@ -7,7 +7,7 @@
 
 ### Link do projeto 🔗
 
-<a href="https://26tassiofernandes.github.io/projeto-terror/" rel="external">Projeto Terror</a> <br>
+<a href="https://26tassiofernandes.github.io/projeto-terror/" rel="external">Tela de login</a> <br>
 
 </div>
 
